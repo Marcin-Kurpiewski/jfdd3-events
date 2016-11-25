@@ -20,7 +20,7 @@ section {
 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 285px) {
     /*----------------------------BANNER----------------------------------------*/
     .banner {
         display: flex;
@@ -51,13 +51,15 @@ section {
     }
 
     .title1 {
-        font-size: 400%;
+        font-size: 230%;
+        /*font-size: 400%;*/
         background: rgba(20, 200, 255, 0.4);
     }
 
     .subtitle {
         font-family: 'Open Sans', serif;
-        font-size: 150%;
+        font-size: 120%;
+        /*font-size: 150%;*/
         background: black;
         color: white;
     }
@@ -143,23 +145,24 @@ section {
 
     ul > li {
         list-style-type: none;
-        width: 20%;
-        float: left;
+        width: 100%;
+        /*width: 20%;*/
+        /*float: left;*/
         font-size: 1.625em;
 
     }
 
-    ul > li:nth-child(1) {
-        width: 10%;
-    }
+    /*ul > li:nth-child(1) {*/
+        /*width: 10%;*/
+    /*}*/
 
-    ul > li:nth-child(2) {
-        width: 24%;
-    }
+    /*ul > li:nth-child(2) {*/
+        /*width: 24%;*/
+    /*}*/
 
-    ul > li:nth-child(3) {
-        width: 26%;
-    }
+    /*ul > li:nth-child(3) {*/
+        /*width: 26%;*/
+    /*}*/
 
     ul > li:hover {
         background-color: rgba(0, 0, 0, 0.2);
@@ -465,35 +468,27 @@ section {
     .p-author-slogan {
         font-family: 'Open Sans', serif;
         font-weight: 100;
-        font-size: 1em
+        font-size: 0.75em
     }
 
     /*----------------------------FOOTER----------------------------------------*/
     footer {
         width: 100%;
+        margin: 2% 0;
         display: flex;
-        background: url("../images/footer-background.png") no-repeat;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        background: url(../images/footer-background.png) no-repeat;
         background-size: cover;
-
     }
 
-    footer p {
-        font-size: 1.5em;
-        padding-top: 3%;
-        padding-left: 5%;
-
-    }
 
     footer > a {
-        display: inline-block;
-        padding: 3% 1% 1% 1%;
         color: #000000;
         font-size: 1.5em;
-
-    }
-
-    footer a:first-of-type {
-        padding-left: 20%;
+        padding: 2%;
     }
 
     footer > a:hover {
@@ -503,27 +498,115 @@ section {
 
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
+    .title1 {
+
+        font-size: 300%;
+
+    }
+    .subtitle {
+
+        font-size: 130%;
+
+    }
+
+    ul > li {
+
+        width: 20%;
+        float: left;
+
+    }
+
+    ul > li:nth-child(1) {
+    width: 10%;
+    }
+
+    ul > li:nth-child(2) {
+    width: 24%;
+    }
+
+    ul > li:nth-child(3) {
+    width: 26%;
+    }
+
+}
+@media only screen and (min-width: 480px) {
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 769px) {
+
+    .offers{
+        flex-direction: row;
+    }
+    .menu{
+        width: 100%;
+    }
+    ul > li {
+        width: 20%;
+        float: left;
+    }
+    .container1, .container2{
+        width: 50%;
+        padding: 2%;
+    }
+
+    .about-us-set {
+    width: 22%;
+    }
+
 }
 
-@media only screen and (max-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {
+    .title1 {
+        font-size: 350%;
+    }
+    .subtitle {
+        font-size: 140%;
+    }
+    .menu{
+        width: 80%;
+    }
+
+    .slider-item-mini{
+        display: flex;
+    }
+    .content-container-form p:nth-child(2) {
+        font-size: 2em;
+
+    }
+    .form-input, .button-send{
+        font-size: 1.25em;
+        width: 55%;
+    }
+    .button-send{
+        margin-top: 0.5%;
+    }
+    .content-container-form p:last-of-type {
+        font-size: 1.25em;
+    }
+    .game-class > p {
+        font-size: 2.25em;
+    }
+    .button-start {
+        width: 30%;
+        font-size: 2.5em;
+    }
+    #wynik{
+        font-size: 2.5em;
+    }
+    .o-nas-container{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .about-us-set {
+        width: 23%;
+    }
 
 @media only screen and (min-width: 1280px) {
     .slider-container {
         padding: 9% 0 9% 0;
     }
 
-    footer p {
-        padding-left: 43%;
-    }
-
-    footer a:first-of-type {
-        padding-left: 20%;
-    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -982,39 +1065,7 @@ section {
         font-weight: 100;
         font-size: 1em
     }
-
-    /*----------------------------FOOTER----------------------------------------*/
-    footer {
-        width: 100%;
-        display: flex;
-        background: url("../images/footer-background.png") no-repeat;
-        background-size: cover;
-
-    }
-
-    footer p {
-        font-size: 2em;
-        padding-top: 1%;
-        padding-left: 45%;
-
-    }
-
-    footer > a {
-        display: inline-block;
-        padding: 1%;
-        color: #000000;
-        font-size: 2.5em;
-
-    }
-
-    footer a:first-of-type {
-        padding-left: 28%;
-    }
-
-    footer > a:hover {
-        background-color: rgba(20, 200, 255, 0.8);
-    }
-}
+}}
 
 
 
