@@ -144,10 +144,9 @@ section {
         overflow: hidden;
 
     }
+
     .mobile-menu-open {
         height: auto;
-
-
 
     }
 
@@ -194,7 +193,6 @@ section {
         width: 100%;
         padding: 60px 2% 2% 2%;
     }
-
 
     .offer-title {
         width: 100%;
@@ -436,7 +434,8 @@ section {
         color: #ff0000;
 
     }
-    .game-nav-btn{
+
+    .game-nav-btn {
         display: none;
     }
 
@@ -524,9 +523,11 @@ section {
     .offers {
         flex-direction: row;
     }
-    .mobile-menu{
+
+    .mobile-menu {
         display: none;
     }
+
     .menu {
         width: 100%;
         height: auto;
