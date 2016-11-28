@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
     $(".mobile-menu").on("click", function(){
-        $(".menu").toggleClass("mobile-menu-close");
+        $(".menu").toggleClass("mobile-menu-open");
 
     });
     { $(".button-send").on("click", function(){

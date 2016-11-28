@@ -145,8 +145,6 @@ section {
 
     }
     .mobile-menu-open {
-        /*height: 0;*/
-        /*overflow: hidden;*/
         height: auto;
 
 
@@ -166,8 +164,6 @@ section {
     ul > li {
         list-style-type: none;
         width: 100%;
-        /*width: 20%;*/
-        /*float: left;*/
         font-size: 1.625em;
 
     }
@@ -199,9 +195,6 @@ section {
         padding: 60px 2% 2% 2%;
     }
 
-    /*.container1 {*/
-        /*padding-top: 6%;*/
-    /*}*/
 
     .offer-title {
         width: 100%;
