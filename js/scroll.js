@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 $(function() {
     // This will select everything with the class smoothScroll
