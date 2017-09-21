@@ -1,2 +1,2 @@
 # jfdd3-events-landing-page
-http://landingpage.mkurpiewski.com/
+# http://mkurpiewski.com/landing/
